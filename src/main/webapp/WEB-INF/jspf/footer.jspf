@@ -1,0 +1,15 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div style="text-align: center; color: darkgray;">
+    &copy; 2024, Team 삼합지졸. <br />
+    Dept. of Computer Software Engineering, Dong-eui University <br />
+    Tabletop Game Web Service (Revised for the Spring Framework)
+</div>
+
+<br>
+<br>
+<br>
+
+<a href="javascript:history.back()">이전 화면으로 이동</a> &emsp;&emsp;
+<a href="${pageContext.request.contextPath}/">주화면으로 이동</a>
