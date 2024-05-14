@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2024. 3. 21., 오전 4:20:42
+    Author     : qkfka
+*/
+
+.padding_bottom-30px {
+    margin-bottom: 30px;
+}
+
+.box {
+    border: 2px solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.center {
+    margin: 20px;
+    text-align: center;
+}
+
+.searchBox {    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+li {
+    margin-bottom: 10px;
+}
+
+#login_form {
+    text-align: center;
+    margin: 100px 10px 100px 10px;
+}
+
+
+#logo {
+    background-image: url(C:\netbeansprojects\ttg\src\main\webapp\WEB-INF\jspf\images\test.png);
+    forced-color-adjust: auto;
+    height: 92px;
+    width: 272px;
+}
+
+#dice_rolled {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 1000px;
+    height: 100px;
+}
+#dice_selected {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 1000px;
+    height: 100px;
+}
