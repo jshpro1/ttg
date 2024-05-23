@@ -11,26 +11,17 @@
         <meta charset="UTF-8">
         <title>Yacht Dice</title>
         <link type="text/css" rel="stylesheet" href="css/main_style.css" />
-        <script src = "${pageContext.request.contextPath}/deu/se/ttg/game/YachuDiceGame"></script>
+        <script src = "/deu/se/ttg/game/YachuDiceGame"></script>
     </head>
     <body>
         
-        <div id="dice_rolled">
-                <img id="role_0" src="${pageContext.request.contextPath}/images/dice_0.jpg" alt="dice_0" width="90" height="90" style="border:0;">
-                <img id="role_1" src="${pageContext.request.contextPath}/images/dice_1.jpg" alt="dice_1" width="90" height="90" style="border:0;">
-                <img id="role_2" src="${pageContext.request.contextPath}/images/dice_2.jpg" alt="dice_2" width="90" height="90" style="border:0;">
-                <img id="role_3" src="${pageContext.request.contextPath}/images/dice_3.jpg" alt="dice_3" width="90" height="90" style="border:0;">
-                <img id="role_4" src="${pageContext.request.contextPath}/images/dice_4.jpg" alt="dice_4" width="90" height="90" style="border:0;">
-                <img id="role_5" src="${pageContext.request.contextPath}/images/dice_5.jpg" alt="dice_5" width="90" height="90" style="border:0;">
-            </div>
-
         <p> <input type="button" id="throw_dice" onclick="rollDice()" value="주사위 굴리기">  </p>
 
-       <%--
+       
         <div id="dice_rolled">
             
             <% for (int i = 0; i < rolled.size(); i++) { %>
-                <img id="r<%= i %>" src="${pageContext.request.contextPath}/images/dice_<%= rolled.get(i) %>.jpg" onclick="diceSelect(<%= i %>)">
+                <img id="r<%= i %>" src="images/dice_<%= rolled.get(i) %>.png" onclick="diceSelect(<%= i %>)">
             <% } %>
         </div>
         
@@ -39,13 +30,11 @@
         <div id="dice_selected">
             
             <% for (int i = 0; i < selected.size(); i++) { %>
-                <img id="s<%= i %>" src="${pageContext.request.contextPath}/images/dice_<%= selected.get(i) %>.jpg" onclick="diceUnSelect(<%= i %>)">
+                <img id="s<%= i %>" src="images/dice_<%= selected.get(i) %>.png" onclick="diceUnSelect(<%= i %>)">
             <% } %>
         </div>  
 
-        --%>
-        <img id="role_0" src="${pageContext.request.contextPath}/images/dicegame.png" alt="dicegame" style="border:0;">
-        
+
         <table id = "scoreboard" border="2">
             <tr>
                 <td colspan="2">Yacht Dice</td>

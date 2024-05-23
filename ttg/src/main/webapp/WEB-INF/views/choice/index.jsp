@@ -34,9 +34,9 @@
             <input type="text" name="keyword" placeholder="보드게임 이름을 입력하세요">
             <button id="searchButton">검색</button>
         </div>
-
+        
         <ul>
-            <a href="choice/game/yatch"><img src="${pageContext.request.contextPath}/images/yatchdice.png" alt="yatch" width="300" height="200" border="0"></a>
+            <li><a href="choice/game/yatch">Yatchdice</a></li>
         </ul>
 
         <%@ include file ="/WEB-INF/jspf/footer.jspf"%> 

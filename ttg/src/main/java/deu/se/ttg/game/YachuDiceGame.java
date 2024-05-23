@@ -63,7 +63,7 @@ public class YachuDiceGame {
     // 주사위 이미지 파일의 상대 경로
     String basePath = "images/";
     // 주사위 번호에 해당하는 이미지 파일 이름
-    String imageName = "dice_" + diceNumber + ".jpg";
+    String imageName = "dice_" + diceNumber + ".png";
     // 이미지 파일의 전체 경로
     String imageUrl = basePath + imageName;
     return imageUrl;

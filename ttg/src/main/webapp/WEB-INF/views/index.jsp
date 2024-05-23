@@ -12,12 +12,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TTG <보드게임 온라인></title>
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/my_style.css">
-        <style>
-            body {
-                margin: 50px 100px 50px 100px;
-                background-color: rgb(245,246,242);
-            }
-            </style>
     </head>
     <body>
         <%@ include file ="/WEB-INF/jspf/header.jspf"%>
@@ -26,7 +20,6 @@
                 암&nbsp;&nbsp;&nbsp;호: <input type="password" name="passwd" size="20"> <br /> <br />
                 <input type="submit" value="로그인" name="B1">&nbsp;&nbsp;&nbsp;
                 <input type="reset" value="다시 입력" name="B2">
-                
         </div>
                 
         <ul>

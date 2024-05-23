@@ -4,5 +4,4 @@
     <h4 style="display: inline-block; color: black;">
         <a href="${pageContext.request.contextPath}"><img src="images/logo1.png" alt="logo1" width="300" height="200" border="0"></a>
     </h4>
-
 </div>
